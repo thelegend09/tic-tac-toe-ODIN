@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;800&display=swap');
+
+* {
+    font-family: Karla, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+h1 {
+    font-family: Silkscreen;
+    align-self: center;
+}
+
+.gameboard {
+    align-self: center;
+    /* width: 30px;
+    height: 30px;
+    background-color: blue; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.gameboard div:hover {
+    background-color: darkorange;
+}
+.gameboard div {
+    width: 200px;
+    height: 200px;
+}
